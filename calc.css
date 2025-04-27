@@ -1,0 +1,28 @@
+
+.frame{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 350px;
+    background: rgb(59, 59, 64);
+    background: linear-gradient(90deg, rgb(101, 100, 125) 0%, rgba(9,9,121,1) 35%, rgb(136, 207, 221) 100%);
+}
+.display{
+    border-radius: 5px;
+    margin: 20px;
+    width: 85%;
+    font-size: 40px;
+}
+.button_container{
+    
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button{
+    background: rgb(136, 207, 221);
+    background:radial-gradient(circle,white 15%,rgb(126, 190, 211) 50%,rgb(215, 215, 225) 50%);
+   height: 90px;
+   width: 90px;
+   margin: 3px;
+   font-size: 20px;
+}
